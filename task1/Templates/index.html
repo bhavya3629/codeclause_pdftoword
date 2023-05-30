@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PDF to Word Converter</title>
+    <link rel="stylesheet" type="text/css" href="/static/converted/style.css">
+
+</head>
+<body>
+    <h1 class="heading">PDF TO WORD CONVERTER</h1>
+
+    <form action="/convert" method="POST" enctype="multipart/form-data">
+        <input type="file" name="file" accept=".pdf" required>
+        <input type="submit" value="Convert">
+    </form>
+</body>
+</html>
